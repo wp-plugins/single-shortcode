@@ -5,7 +5,7 @@ Requires at least: 2.5
 Tested up to: 3.2.1
 Stable tag: trunk
 
-[single] shortcode outputs content only if single page is displayed. It's useful for hiding table of contents, footnotes, relative links, etc.
+[single] shortcode outputs content only if single page is displayed. Useful for hiding table of contents, footnotes, relative links from excerpt.
 
 == Description ==
 
@@ -72,8 +72,8 @@ And single page is displayed as follows. (Index is output)
 > paragraph2
 
 = Links =
-* [Homepage (attosoft.info)](http://attosoft.info/en/)
-* [single shortcode Plugin Official Site](http://attosoft.info/blog/en/single-shortcode/)
+* [Homepage (attosoft.info)](http://attosoft.info/en/) \[[Japanese](http://attosoft.info/)\]
+* [single shortcode Plugin Official Site](http://attosoft.info/blog/en/single-shortcode/) \[[Japanese](http://attosoft.info/blog/single-shortcode/)\]
 
 == Installation ==
 
