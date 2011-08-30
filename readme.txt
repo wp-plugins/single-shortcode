@@ -1,6 +1,6 @@
 === single shortcode ===
 Contributors: attosoft
-Tags: single page, single post, shortcode, excerpt, hide
+Tags: single page, single post, shortcode, excerpt, hide, content
 Requires at least: 2.5
 Tested up to: 3.2.1
 Stable tag: trunk
@@ -38,9 +38,42 @@ You can use [excerpt] tag as necessary.
      ...
     [/excerpt]
 
+= Example =
+
+If you write the following code,
+
+    <p>paragraph1</p>
+    
+    [single]
+    <h5>Index</h5>
+    <ul>
+        <li><a href="#item1">item1</a></li>
+        <li><a href="#item2">item2</a></li>
+        <li><a href="#item3">item3</a></li>
+    </ul>
+    [/single]
+    
+    <p>paragraph2</p>
+
+the excerpt is displayed as follows. (Index is NOT output)
+
+> paragraph1
+> 
+> paragraph2
+
+And single page is displayed as follows. (Index is output)
+
+> paragraph1
+> ## **Index**
+> * item1
+> * item2
+> * item3
+> 
+> paragraph2
+
 = Links =
-* [Homepage](http://attosoft.info/en/)
-* [Plugin Official Site](http://attosoft.info/blog/en/single-shortcode/)
+* [Homepage (attosoft.info)](http://attosoft.info/en/)
+* [single shortcode Plugin Official Site](http://attosoft.info/blog/en/single-shortcode/)
 
 == Installation ==
 
