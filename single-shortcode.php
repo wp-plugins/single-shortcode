@@ -3,7 +3,7 @@
 Plugin Name: single shortcode
 Plugin URI: http://attosoft.info/blog/en/single-shortcode/
 Description: [single] shortcode outputs content only if single page is displayed. It's useful for hiding table of contents, footnotes, relative links from excerpt. And [excerpt] shortcode outputs content only if excerpt is displayed.
-Version: 0.1
+Version: 0.1.1
 Author: attosoft
 Author URI: http://attosoft.info/en/
 */

@@ -82,5 +82,8 @@ And single page is displayed as follows. (Index is output)
 
 == Changelog ==
 
+= 0.1.1 =
+* [excerpt] shortcode also outputs content in search results and posts feed (RSS/Atom)
+
 = 0.1 =
 * Initial release
