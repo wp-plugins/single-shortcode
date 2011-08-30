@@ -33,7 +33,7 @@ add_shortcode("single", "single_shortcode");
 
 // [excerpt] shortcode outputs content only if excerpt is displayed
 function excerpt_shortcode($atts, $content = null) {
-    return is_home() || is_category() || is_tag() || is_archive() ? $content : '';
+    return is_home() || is_category() || is_tag() || is_archive() || is_search() || is_feed() ? $content : '';
 }
 add_shortcode("excerpt", "excerpt_shortcode");
 
