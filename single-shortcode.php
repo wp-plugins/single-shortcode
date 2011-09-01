@@ -37,4 +37,13 @@ function excerpt_shortcode($atts, $content = null) {
 }
 add_shortcode("excerpt", "excerpt_shortcode");
 
+// Additional links on the Plugins page
+add_filter('plugin_row_meta', 'add_single_shortcode_links', 10, 2);
+function add_single_shortcode_links($links, $file) {
+    if ($file == plugin_basename(__FILE__)) {
+        $links[] = '<a href="http://wordpress.org/extend/plugins/single-shortcode/" target="_blank">' . __('Show Details') . '</a>';
+        $links[] = '<a href="http://attosoft.info/blog/en/contact/" target="_blank">' . __('Contact Me') . '</a>';
+    }
+    return $links;
+}
 ?>
